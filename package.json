@@ -1,5 +1,5 @@
 {
-  "name": "nyc",
+  "name": "@alexbosworth/nyc",
   "version": "15.1.0",
   "description": "the Istanbul command line interface",
   "main": "index.js",
@@ -56,6 +56,7 @@
   "author": "Ben Coe <ben@npmjs.com>",
   "license": "ISC",
   "dependencies": {
+    "@alexbosworth/istanbul-lib-processinfo": "^2.0.2",
     "@istanbuljs/load-nyc-config": "^1.0.0",
     "@istanbuljs/schema": "^0.1.2",
     "caching-transform": "^4.0.0",
@@ -69,7 +70,6 @@
     "istanbul-lib-coverage": "^3.0.0",
     "istanbul-lib-hook": "^3.0.0",
     "istanbul-lib-instrument": "^4.0.0",
-    "istanbul-lib-processinfo": "^2.0.2",
     "istanbul-lib-report": "^3.0.0",
     "istanbul-lib-source-maps": "^4.0.0",
     "istanbul-reports": "^3.0.2",
